@@ -1,0 +1,10 @@
+name: myenv2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11.*        # pins to Python 3.11.x
+  - numpy=1.26.*         # example pinned package
+  - pandas=2.2.*         # example pinned package
+  - pip
+prefix: /Users/yz/miniforge3/envs/myenv2
