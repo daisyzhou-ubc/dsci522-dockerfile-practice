@@ -1,10 +1,10 @@
-name: myenv2
+name: lab_tuesday
 channels:
-  - defaults
-  - conda-forge
+- defaults
+- conda-forge
 dependencies:
-  - python=3.11.*        # pins to Python 3.11.x
-  - numpy=1.26.*         # example pinned package
-  - pandas=2.2.*         # example pinned package
-  - pip
-prefix: /Users/yz/miniforge3/envs/myenv2
+- python=3.11.14
+- numpy=2.3.5
+- pandas=2.3.3
+- conda-lock=3.0.4
+prefix: /Users/yz/miniforge3/envs/lab_tuesday
